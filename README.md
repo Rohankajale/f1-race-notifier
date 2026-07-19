@@ -1,1 +1,1 @@
-# f1-race-notifier-1
+# f1-race-notifier

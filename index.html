@@ -5,9 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/node-snackbar@latest/dist/snackbar.min.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/node-snackbar@latest/src/js/snackbar.min.js" defer></script>    
     <script src="./script.js" defer></script>
 </head>
 <body>
+    <header
+    class="bg-[#C50500] text-white px-4 md:px-10 py-4 shadow"
+    >
+        <div class="max-w-6xl mx-auto">
+            <h1 class="text-2xl font-bold">
+                F1 Race Notifier
+            </h1>
+        </div>
+    </header>
 
     <div class="p-5 md:p-10">
         <div class="flex items-center gap-2 p-2">
@@ -23,15 +34,15 @@
                 for="notification"
                 class="text-gray-700 cursor-pointer"
             >
-                Send Notifications
+                Tick the checkbox to receive F1 race updates and notifications.
             </label>
         </div>
-
+        
         <div class="p-2 text-2xl font-bold text-gray-800">Drivers Championship Standings</div>
 
         <div class="overflow-x-auto rounded-xl shadow overflow-hidden">
             <table class="min-w-full bg-white">
-                <thead class="bg-blue-900 text-white">
+                <thead class="bg-[#C50500] text-white">
                     <tr>
                         <th class="px-4 py-3 text-left whitespace-nowrap">
                         Position
@@ -60,3 +71,6 @@
     </div>
 </body>
 </html>
+
+
+
